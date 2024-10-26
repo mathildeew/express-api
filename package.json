@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-express-course",
+  "version": "1.0.0",
+  "description": "Node.js express crash course",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server",
+    "dev": "node --watch --env-file=.env server"
+  },
+  "author": "Mathilde Elinor",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "express": "^4.21.1"
+  }
+}
